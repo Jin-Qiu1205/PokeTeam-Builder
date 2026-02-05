@@ -1,0 +1,58 @@
+body { background: #f6f7fb; }
+
+.type-badge { text-transform: capitalize; }
+
+.sprite-wrap {
+  width: 140px;
+  height: 140px;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e8e8ee;
+  overflow: hidden;
+}
+
+.sprite-wrap img {
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated;
+}
+
+.stat-label {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.moves-list li { text-transform: capitalize; }
+
+.team-card {
+  border: 1px solid #e8e8ee;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.team-slot {
+  border: 1px dashed #cfd3da;
+  border-radius: 14px;
+  background: #fafbff;
+  min-height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  gap: 10px;
+}
+
+.team-slot img {
+  width: 56px;
+  height: 56px;
+  image-rendering: pixelated;
+}
+
+.muted { color: #6c757d; }
+.capitalize { text-transform: capitalize; }
+.pointer { cursor: pointer; }
+
+.toast-container { z-index: 2000; }
